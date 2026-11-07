@@ -1,5 +1,5 @@
-let shareBtn = document.querySelector(".share-btn");
-let sharePanel = document.querySelector(".share-panel");
+const shareBtn = document.querySelector(".share-btn");
+const sharePanel = document.querySelector(".share-panel");
 
 shareBtn.addEventListener("click", () => {
   sharePanel.classList.toggle("hidden");
